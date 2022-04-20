@@ -18,7 +18,8 @@
                     <input id="username" type="text" placeholder="Username" name="username">
 
                 </p>
-<!-- -->
+<!--code above is label including a text box with placeholder text inside of the box-->
+<!-- <button> makes a interactive button with any text that you want attached to it -->
                 <p>
                     <label for="password">Enter a Password:</label>
                     <input id="password" type="text" placeholder="Password" name="password">
@@ -26,10 +27,6 @@
                 </p>
 
                         <button>Submit</button>
-
-
-
-
             </form>
 
 
@@ -37,22 +34,48 @@
     <hr>
     <section>
         <h1> Query Strings</h1>
-            <form action="https://www.reddit.com/search/"></form>
+            <form action="https://www.reddit.com/search/">
+                <input type="text" name="q">
+                <button>Submit Reddit</button>
+            </form>
+            <!-- this will enter any word you put into the search engine of reddit -->               
+                                            
+                <form action="https://www.google.com/search?q=="> 
+                    <input type="text" name="q">
+                    <button>Submit Google</button>
+                </form>
+    <!-- this will enter any word you put into the search engine of google --> 
 
-               <input type="text" name="q">
-               <button>Submit Reddit</button>
-           
-            
+                <form action="https://www.youtube.com/results?search_query="> 
+                    <input type="text" name="q">
+                    <button>Submit Youtube</button>
+                </form>
+    <!-- this will enter any word you put into the search engine of youtube --> 
+    
+    </section>
+
+    
+
+<!--<p> tag within a group of inputs keeps them together. Looks better-->
+<!-- <form> allows you to have interactive controls within the website-->     
+    <section>
+        <h1> Radio Buttons and Checkboxes</h1>
+            <form action="[Hyperlink Blocked]">
+                <label for="agree">I agree to everything</label>
+                <input type="checkbox" name="agree TOS" id="agree">
 
 
-            <form>
+                <p>
+                    <label for="s">Small</label>
+                    <input type="radio" name="size" id="s" value=s>
 
-            </form>    
-            
-            <form>
+                    <label for="m">Medium</label>
+                    <input type="radio" name="size" id="m" value="m">
 
-
-
+                    <label for="l">Large</label>
+                    <input type="radio" name="size" id="l" value="l">
+                </p>
+                <button>Click this for unlimited Fortnite V-Bucks!!</button>
             </form>
     </section>
 
