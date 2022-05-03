@@ -9,7 +9,7 @@
 
 body {
 
-    background-color: darkgray
+    background-color: darkgray;
     
 }
 
@@ -30,7 +30,7 @@ h1,h2 {
 #signup {
 
     background-color: whitesmoke;
-    color:palegreen
+    color:palegreen;
 
 }
 /* #link is how you link ids to certain buttons you want to change the style of. This also works for other tags that have id in them  */
@@ -47,10 +47,45 @@ h1,h2 {
 
 }
 /* this gives us the ability to change the style of every "post" username that has an <a> tag */
-
+/* # is for ID . is for class */
 footer > a {
 
-    color:green
+    color:green;
 
 }
 /* the ">" is a descendant selector. In this case, it allows us to focus only on the link at the bottom  */
+
+input[type="password"]{
+
+    color:fuchsia;
+
+}
+/* */
+
+input[type="text"]{
+
+    color:aquamarine;
+
+}
+/*  */
+
+a[href*="Google"]{
+
+    color:darkslateblue;
+
+}
+/*  */
+
+button:hover {
+
+    background-color:yellow;
+    color:darkorchid
+
+}
+/* */
+
+.post button:active{
+
+    background-color:green;
+
+}
