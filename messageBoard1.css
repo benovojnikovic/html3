@@ -33,10 +33,24 @@ h1,h2 {
     color:palegreen
 
 }
-/* #link is how you link ids to certain buttons you want to change the style of. This also works for other tags that have id in them  */\
+/* #link is how you link ids to certain buttons you want to change the style of. This also works for other tags that have id in them  */
 
 .tag{
 
-    color:black;
+    color:cyan;
 
 }
+/*.tag allows us to change everything that has the tag class and anything coming after it.  */
+.post a{
+
+    color:purple;
+
+}
+/* this gives us the ability to change the style of every "post" username that has an <a> tag */
+
+footer > a {
+
+    color:green
+
+}
+/* the ">" is a descendant selector. In this case, it allows us to focus only on the link at the bottom  */
