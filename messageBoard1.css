@@ -1,6 +1,35 @@
+/*this is an example of how to highlight  everything on the page. The asterisk is important here. it is a universal selector 
 *{
 
     color:pink;
     background-color: blue
+
+} */
+/* "*" is a universal selector that selects everything within a certain tag */
+
+body {
+
+    background-color: darkgray
+    
+}
+
+button {
+
+    font-size: 30px;
+
+} 
+/* this changes all the buttons on the page to 30 pixels */
+
+h1,h2 {
+
+    color:teal;
+
+}
+/* this is mulitple selectors. You can have more than one tag with the same styling */
+
+#signup {
+
+    background-color: whitesmoke;
+    color:palegreen
 
 }
