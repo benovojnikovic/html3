@@ -1,0 +1,34 @@
+h1{
+    color:darkcyan;
+    text-align:center;
+    font-weight:300;
+    font-size: 125px;
+    font-family:cursive
+
+
+}
+
+h2{
+    color:blue;
+    text-align:center;
+    font-weight: 900;
+    text-decoration: black underline 
+
+
+}
+
+h3{
+    text-decoration: blueviolet underline;
+
+
+}
+
+p{
+    line-height:1.6;
+    letter-spacing:0.5ex;
+    
+
+
+
+}
+
