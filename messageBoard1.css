@@ -33,3 +33,10 @@ h1,h2 {
     color:palegreen
 
 }
+/* #link is how you link ids to certain buttons you want to change the style of. This also works for other tags that have id in them  */\
+
+.tag{
+
+    color:black;
+
+}
