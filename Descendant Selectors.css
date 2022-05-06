@@ -1,0 +1,94 @@
+body{
+
+background-color:lavender
+
+}
+
+a[href="home"]{
+
+color:aqua;
+font-size:30px;
+
+}
+/* changing color and font size of homezo */
+
+a[href="contact"]{
+
+    color:aqua;
+    font-size:30px;
+    
+    }
+/* changing color and font size of contactzo */
+
+a[href="about"]{
+
+    color:aqua;
+    font-size:30px;
+
+}
+/* changing color and font size of aboutzo */
+#sports{
+
+color:orange;
+
+}
+/*changes the text to orange in sports id  */
+
+a[href="https://en.wikipedia.org/wiki/Barry_Bonds"]{
+
+color:blue;
+font-size:20px;
+
+}
+/* changes the color of barry bonds hyperlink to blue  */
+
+a[href="https://en.wikipedia.org/wiki/Lance_Armstrong"]{
+
+color:fuchsia;
+font-size:20px;
+
+}
+/* changes color of armstrong hyperlink to fuchsia */
+
+#food{
+
+color:darkcyan;
+
+}
+/* changes the text color of food id to darkcyan */
+
+a[href="https://www.chick-fil-a.com/"]{
+
+color:red;
+font-size:20px;
+}
+/* changes chick fil a link to red */
+a[href="https://www.popeyes.com/"]{
+
+color:orange;
+font-size:20px;
+
+}
+
+#games{
+
+color:mediumslateblue;
+
+}
+/* changes the text color in games id to mediumslate blue */
+
+a[href="https://en.wikipedia.org/wiki/EarthBound"]{
+
+color:burlywood;
+font-size:20px;
+
+}
+/* changes the earthbound link to burlywood */
+
+a[href="https://playvalorant.com/en-us/"]{
+
+color:red;
+font-size:20px;
+
+}
+/* changes the valorant link to red */
