@@ -89,3 +89,20 @@ button:hover {
     background-color:green;
 
 }
+/*  */
+
+h2::first-letter {
+
+    font-size:40px;
+
+}
+/* */
+
+p::first-line {
+
+    color:cornflowerblue;
+    font-size:40px;
+
+}
+/*  */
+

@@ -1,0 +1,106 @@
+body{
+
+    background-color:gray;
+
+}
+/* changing the background color of the page to gray */
+
+h1{
+
+color:darkorange;
+
+}
+/* changing the h1 element color  */
+
+.forty{
+
+color:crimson;
+
+}
+/* changing all elements with the "forty" id to crimson color using a class selector */
+
+.money{
+
+color:hotpink;
+
+}
+/* changing all elements with "money" id to hot pink color */
+
+.skins{
+
+color:darkturquoise;
+
+}
+/* changing all elements with "skin" id to dark turquoise */
+
+.spending{
+
+color:dodgerblue;
+
+}
+/* changing all elements with "spending id to dodger blue */
+
+.bank{
+
+color:antiquewhite;
+
+}
+/* chaning all bank id to antique white */
+
+.account{
+
+color:brown;
+
+}
+/* changing all account id to brown */
+
+.calling{
+
+color:cyan;
+
+}
+/* changing all calling id to cyan */
+
+.princip{
+
+color:fuchsia;
+
+}
+
+
+.communism{
+
+color:indigo;
+
+}
+
+
+.talk{
+
+color:gold;
+
+}
+
+
+.texting{
+
+color:lime;
+
+}
+/* I think these are pretty self exlpanatory */
+
+#yes{
+
+color:lawngreen;
+background-color:rebeccapurple;
+font-size:30px;
+
+}
+/* changing the colors of our buttons with the yes id. the # acts as an id selector  */
+
+#nah{
+
+color:red;
+background-color:gainsboro;
+
+}
