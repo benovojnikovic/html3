@@ -60,21 +60,21 @@ input[type="password"]{
     color:fuchsia;
 
 }
-/* */
+/*changes the password bullet point color when typed */
 
 input[type="text"]{
 
     color:aquamarine;
 
 }
-/*  */
+/*changes the text color when typing */
 
 a[href*="Google"]{
 
     color:darkslateblue;
 
 }
-/*  */
+/* changes the color of the hyperlink */
 
 button:hover {
 
@@ -82,21 +82,21 @@ button:hover {
     color:darkorchid
 
 }
-/* */
+/* changes the color of the button when you hover over it  */
 
 .post button:active{
 
     background-color:green;
 
 }
-/*  */
+/* changes the color of the button when you click on it  */
 
 h2::first-letter {
 
     font-size:40px;
 
 }
-/* */
+/* changes the first letter of h2 to 40px size*/
 
 p::first-line {
 
@@ -104,5 +104,5 @@ p::first-line {
     font-size:40px;
 
 }
-/*  */
+/* changes the first line of text on <p> to size 40 and the color to cornflowerblue */
 
