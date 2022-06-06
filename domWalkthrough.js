@@ -126,10 +126,21 @@ console.log(i, myDiamonds[i]);
     // 
     var header = document.querySelector('#main-header');
     header.style.borderBottom = 'solid 4px hotpink'; 
-    
+// 
     var input = document.querySelector('input');
     input.value = "I just changed the text value in the input box.";
-
+// 
     var submit = document.querySelector('input[type="submit"]');
-
+// 
     submit.value = "Hello Button";
+// 
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'blue';
+
+var otherItem = document.querySelector('.list-group-item:nth-child(2)');
+otherItem.style.color = 'cyan'; 
+
+var titles = document.querySelectorAll('.title');
+console.log(titles);
+
+titles[0].textContent = 'Hello';
